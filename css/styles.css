@@ -172,7 +172,9 @@ nav h1 a {
   list-style: outside none none;
   margin: 0;
   padding: 30px 15px 60px;
+  border-radius: 13px 13px 0 0;
   text-align: center;
+  
 }
 #restaurants-list li {
   background-color: #fff;
@@ -193,8 +195,9 @@ nav h1 a {
   width: 100%;
 }
 #restaurants-list li h2 {
-  color: #444;
+  color: orange;
   font-family: Arial,sans-serif;
+  text-align: center;
   font-size: 14pt;
   font-weight: 200;
   letter-spacing: 0;
@@ -205,6 +208,7 @@ nav h1 a {
 #restaurants-list p {
   margin: 0 5px 0;
   font-size: 11pt;
+  text-align: center;
 }
 #restaurants-list li a {
   background-color: rgb(58, 58, 58);
@@ -214,6 +218,8 @@ nav h1 a {
   font-size: 10pt;
   margin: 15px 45px 0;
   padding: 8px 15px 8px;
+  border-radius: 13px 13px 0 0;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -325,10 +331,6 @@ nav h1 a {
   display: flex;
   flex-direction: column;
 }
-
-
-
-
 /* ====================== Responsive Elements ====================== */
 
 @media (min-width: 481px) {
